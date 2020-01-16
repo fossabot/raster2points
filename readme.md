@@ -1,6 +1,7 @@
 # raster2points
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/af460e23844a48b9ab0502a362e7ec10)](https://www.codacy.com/gh/wri/raster2points?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wri/raster2points&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwri%2Fraster2points.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwri%2Fraster2points?ref=badge_shield)
 
 Convert one or multiple raster images to points.
 Tool will read first input raster and extract lat/lon coordinates and values
@@ -66,3 +67,7 @@ output = "path/to/newfile.tsv"
 
 raster2csv(raster1, raster2, output, col_names=["name1", "name2"], separator="\t", calc_area=True)
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwri%2Fraster2points.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwri%2Fraster2points?ref=badge_large)
